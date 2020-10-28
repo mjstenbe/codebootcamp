@@ -1,0 +1,18 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(18, 111, 218);
+}
+a,
+span {
+  font-weight: bold;
+  color: #8ff10e;
+}
+#otsikko {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.tosihieno {
+  font-style: italic;
+  font-stretch: wider;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
