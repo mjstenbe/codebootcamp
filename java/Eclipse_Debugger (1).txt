@@ -1,0 +1,8 @@
+Eclipse Debugger
+-----------------
+1. Rivinumerot näkyviin: Window->Preferences->General->Editor: Show Line Numbers
+2. Klikkaamalla rivinumeron vas. puolelta lisätään break pointteja
+3. Run -> Debug As.. Java Application
+4. Työkalupalkista: Step Into (F5) ja Step Over (F6). 
+5. Muuttujien tutkiminen ja muokkaaminen: Variables -näkymästä
+6. "Vahtien" lisääminen: Window->Show View -> Expressions
