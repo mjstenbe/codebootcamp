@@ -1,0 +1,28 @@
+﻿Harjoituskannan käyttöönotto
+
+Luentoesimerkeissä käytettävä harjoituskanta (pienen yrityksen henkilöt, osastot ja projektit) voidaan asentaa paikallisesti siihen koneeseen, jossa harjoituksia halutaan kulloinkin tehdä.
+
+Tallenna  Harjoituskanta-kansiosta omalle koneellesi tiedosto "Yritys_18_3_2015.zip". Tämä paketti sisältää tietokannan määritykset ja datan. 
+
+Tallenna se ja avaa zip-paketti. Sieltä löytyy tiedosto  "Yritys_18_3_2015.sql"
+
+Jatka sitte MySQL:n puolella:
+
+Käynnistä MySQL Workbench
+
+Klikkaa MySQL Connections -otsikon alla näkyvää paikallista tietokantayhteyttä (jos yhteyttä ei ole vielä luotu, luo se +-symbolilla. Anna uudelle yhteydelle nimi Localhost tai Paikallinen. Pitäisi toimia oletusarvoilla.)
+Kysyttäessä anna salasana (root-tunnukselle määritelty = olet määritellyt tämän itse asennuksen yhteydessä)
+Valitse vasemmasta reunasta Management-otsikon alta Data Import/Restore
+Valitse Import from Self-Contained File ja etsi tiedosto "Yritys_18_3_2015.sql" omalta koneeltasi (kohdassa 1 tallentamasi)
+Paina oikeasta alakulmasta Start Import. Vihreä palkki kulkee näytön läpi onnistuneen latauksen merkiksi.
+Palaa Query-välilehdelle. Harjoitustietokanta on nyt ladattu ja sen pitäisi ilmestyä vasempaan reunaan Schemas-otsikon alle. Jos sitä ei heti näy, klikkaa hiiren oikealla painikkeella Schemas-otsikon alla ja valitse Refresh all.
+
+Kun harjoituskanta nimeltään Yritys näkyy Schemas-otsikon alla, määrittele se oletuskannaksi (Default) ennen kyselyiden suorittamista. Tee se hiiren oikealla näppäimellä Set as Default Schema Yritys-kannan päällä. 
+
+Nyt voit ryhtyä kokeilemaan erilaisia kyselyitä harjoituskantaan Query1-ikkunassa! Kirjoita kysely, esim.
+
+SELECT enimi, snimi FROM henkilo;
+
+ja klikkaa keskimmäistä kolmesta salamasta (Execute the statement under the keyboard cursor) TAI suorita kysely Ctrl+Enter-yhdistelmällä. Tulos aukeaa erilliseen ikkunaan. Mahdolliset virheilmoitukset tulevat näkyviin Output-ikkunaan.
+
+Tunnilla tehdyt harjoitustehtävät löydät Tuntiharjoitukset-kansiosta. Muista laittaa puolipiste jokaisen kyselyn loppuun. Puolipiste erottaa kyselyt toisistaan ja voit suorittaa yksittäisiä kyselyitä (sen sijaan, että suorittaisit aina kaikki yhdessä istunnossa olevat kyselyt).
