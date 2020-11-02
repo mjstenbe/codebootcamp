@@ -25,4 +25,4 @@ SELECT enimi, snimi FROM henkilo;
 
 ja klikkaa keskimmäistä kolmesta salamasta (Execute the statement under the keyboard cursor) TAI suorita kysely Ctrl+Enter-yhdistelmällä. Tulos aukeaa erilliseen ikkunaan. Mahdolliset virheilmoitukset tulevat näkyviin Output-ikkunaan.
 
-Tunnilla tehdyt harjoitustehtävät löydät Tuntiharjoitukset-kansiosta. Muista laittaa puolipiste jokaisen kyselyn loppuun. Puolipiste erottaa kyselyt toisistaan ja voit suorittaa yksittäisiä kyselyitä (sen sijaan, että suorittaisit aina kaikki yhdessä istunnossa olevat kyselyt).
+Muista laittaa puolipiste jokaisen kyselyn loppuun. Puolipiste erottaa kyselyt toisistaan ja voit suorittaa yksittäisiä kyselyitä (sen sijaan, että suorittaisit aina kaikki yhdessä istunnossa olevat kyselyt).
